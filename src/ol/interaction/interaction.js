@@ -224,7 +224,7 @@ ol.interaction.Interaction.zoomByDelta =
  * @param {ol.Map} map Map.
  * @param {ol.View} view View.
  * @param {number|undefined} resolution Resolution to go to.
- * @param {ol.Coordinate=|undefined} center Center to go to.
+ * @param {ol.Coordinate|undefined} center Center to go to.
  * @param {number=} opt_duration Duration.
  */
 ol.interaction.Interaction.zoomAndPanWithoutConstraints =
